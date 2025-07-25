@@ -74,7 +74,7 @@ section {
 
 #revealButton {
     background-color: #00bcd4;
-    color: white;
+    color: #B1F0F7;
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
@@ -84,6 +84,7 @@ section {
 }
 
 #revealButton:hover {
+    color: #81BFDA;
     background-color: #0097a7;
 }
 
