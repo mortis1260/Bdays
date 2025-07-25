@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #e91e63; /* Pink */
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+/* 
+.memories h2{
+    text-align: center;
+} */
+
+.memories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.memory-item {
+    flex-basis: 60%; /* Adjust as needed */
+    min-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.memory-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#revealButton {
+    background-color: #00bcd4; /* Cyan */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#revealButton:hover {
+    background-color: #0097a7;
+}
+
+#specialMessage {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e91e63;
+    color: white;
+}
