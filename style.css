@@ -1,16 +1,17 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Delius Swash Caps", cursive;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fce4ec; /* Light pink */
-    color: #333;
+    background-color: #129990;
+    color: #D91656;
     text-align: center;
 }
 
 header {
-    background-color: #e91e63; /* Pink */
-    color: white;
+    font-family: "Playfair Display", serif;
+    background-color: #096B68;
+    color: #FFFBDE;
     padding: 2rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
@@ -24,7 +25,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #90D1CA;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -33,14 +34,15 @@ section {
     margin-bottom: 30px;
 }
 
+#ourmem{
+    color: #16404D;
+    font-size: 2.0em;
+}
+
 .intro p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
-/* 
-.memories h2{
-    text-align: center;
-} */
 
 .memories {
     display: flex;
@@ -50,13 +52,17 @@ section {
 }
 
 .memory-item {
-    flex-basis: 60%; /* Adjust as needed */
+    flex-basis: 60%;
     min-width: 300px;
-    border: 1px solid #ddd;
+    border: 1px solid #A3D1C6;
     border-radius: 8px;
     padding: 15px;
-    background-color: #fff;
+    background-color: #A3D1C6;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.memory-item p{
+    color: #16404D;
 }
 
 .memory-item img {
@@ -67,7 +73,7 @@ section {
 }
 
 #revealButton {
-    background-color: #00bcd4; /* Cyan */
+    background-color: #00bcd4;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -82,14 +88,16 @@ section {
 }
 
 #specialMessage {
+    font-family: "Playwrite HU", cursive;
     margin-top: 20px;
     font-style: italic;
     color: #555;
 }
 
 footer {
+    font-family: "Akaya Kanadaka", system-ui;
     margin-top: 40px;
     padding: 20px;
-    background-color: #e91e63;
-    color: white;
+    background-color: #096B68;
+    color: #FFFBDE;
 }
